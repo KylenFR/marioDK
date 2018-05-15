@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Test game</title>
+
+    <script scr="phaser.min.js"></script>
+    <script scr="Variables.js"></script>
+
+  </head>
+
+
+  <body>
+    <script>
+      var config = {
+        type: Phaser.AUTO,
+        width: 640,
+        height: 480,
+        scene: testGame.scenes
+      };
+
+      var game = new Phaser.Game(config);
+    </script>
+  </body>
+</html>
